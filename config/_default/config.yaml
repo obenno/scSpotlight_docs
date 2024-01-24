@@ -1,0 +1,148 @@
+baseURL: /
+canonifyURLs: yes
+relativeURLs: yes
+uglyURLs: no
+theme: hugo-theme-relearn
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$g
+##permalinks:
+##  post: /:year/:month/:day/:slug/
+##languageCode: en
+
+title: scSpotlight
+outputs:
+  home:
+    - HTML
+    - RSS
+    - PRINT
+    - SEARCH
+    - SEARCHPAGE
+  page:
+    - HTML
+    - RSS
+    - PRINT
+  section:
+    - HTML
+    - RSS
+    - PRINT
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    guessSyntax: no
+    lineNumbersInTable: no
+    noClasses: no
+server:
+  headers:
+    - for: '**.html'
+      values:
+        X-UA-Compatible: IE=edge
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    menu:
+      shortcuts:
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> GitHub repo
+          url: https://github.com/obenno/scSpotlight
+          weight: 10
+        ##- name: <i class='fas fa-fw fa-camera'></i> Showcases
+        ##  pageRef: showcase/
+        ##  weight: 11
+        - identifier: hugodoc
+          name: <i class='fas fa-fw fa-bookmark'></i> Package Documentation
+          url: https://obenno.github.io/scSpotlight/
+          weight: 20
+        ##- name: <i class='fas fa-fw fa-bullhorn'></i> Credits
+        ##  pageRef: more/credits/
+        ##  weight: 30
+        - name: <i class='fas fa-fw fa-tags'></i> Tags
+          pageRef: tags/
+          weight: 40
+        - name: <i class='fas fa-fw fa-layer-group'></i> Categories
+          pageRef: categories/
+          weight: 50
+    params:
+      landingPageName: <i class='fas fa-home'></i> Home
+    title: Documentation of scSpotlight
+    weight: 1
+  zh:
+    languageName: Chinese
+    languageCode: zh-CN
+    menu:
+      shortcuts:
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> GitHub repo
+          url: https://github.com/obenno/scSpotlight
+          weight: 10
+        - identifier: hugodoc
+          name: <i class='fas fa-fw fa-bookmark'></i> Package Documentation
+          url: https://obenno.github.io/scSpotlight/
+          weight: 20
+        - name: <i class='fas fa-fw fa-tags'></i> Tags
+          pageRef: tags/
+          weight: 40
+        - name: <i class='fas fa-fw fa-layer-group'></i> Categories
+          pageRef: categories/
+          weight: 50
+    params:
+      landingPageName: <i class='fas fa-home'></i> Home
+    title: scSpotlight
+    weight: 2
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: data
+      target: data
+    - source: i18n
+      target: i18n
+    - source: ../images
+      target: static/images
+    - source: static/images
+      target: static/images
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
+params:
+  additionalContentLanguage: en
+  author:
+    name: Zhixia Xiao
+  breadcrumbSeparator: '>'
+  collapsibleMenu: yes
+  description: Chinese Documentation for scSpotlight
+  disableBreadcrumb: no
+  disableInlineCopyToClipBoard: yes
+  disableLandingPageButton: yes
+  disableNextPrev: no
+  disableRootBreadcrumb: yes
+  disableSeoHiddenPages: yes
+  imageEffects:
+    bg-white: yes
+    border: yes
+    lightbox: yes
+    shadow: yes
+  images: images/hero.png
+  mermaidInitialize: '{ "securityLevel": "loose" }'
+  mermaidZoom: yes
+  showVisitedLinks: yes
+  siteparam:
+    test:
+      text: A **nested** parameter <b>with</b> formatting
+  themeVariant:
+    - zen-light
+  themeVariantAuto:
+    - relearn-light
+    - relearn-dark
+  titleSeparator: '::'
