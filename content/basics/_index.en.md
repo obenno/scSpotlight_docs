@@ -4,4 +4,4 @@ title: Basics
 weight: 1
 ---
 
-Discover basic usages of the `scSpotlight`.
+Discover basic usages of the scSpotlight.

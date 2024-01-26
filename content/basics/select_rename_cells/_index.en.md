@@ -1,7 +1,7 @@
 ---
-tags:
-- documentation
 title: Select Cells and Assign Identity
+tags: ["documentation", "select cells"]
+categories: ["Introduciton"]
 weight: 20
 ---
 
@@ -30,6 +30,5 @@ adjust cell annotation manually. One could activate lasso tools by pressing
 below shows how to select cell of interest with lasso tool and assign new celltype labels.
 
 <video controls width="100%">
-  <source src="https://github.com/obenno/scSpotlight/blob/main/vignettes/articles/images/select_rename_cells.webm?raw=true" type="video/webm" />
+  <source src="select_cell_lasso.webm" type="video/webm" />
 </video>
-

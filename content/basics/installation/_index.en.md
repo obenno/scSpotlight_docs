@@ -1,7 +1,7 @@
 ---
-tags:
-- documentation
 title: Installation
+tags: ["documentation", "installation"]
+categories: ["Introduciton"]
 weight: 1
 ---
 

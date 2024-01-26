@@ -1,7 +1,7 @@
 ---
-tags:
-- documentation
 title: UI 介绍
+tags: ["documentation", "ui"]
+categories: ["Introduciton"]
 weight: 3
 ---
 

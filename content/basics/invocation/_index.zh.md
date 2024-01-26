@@ -1,7 +1,7 @@
 ---
-tags:
-- documentation
 title: 启动APP
+tags: ["documentation", "start app"]
+categories: ["Introduciton"]
 weight: 2
 ---
 
