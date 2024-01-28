@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: scspotlight.netlify.app
 canonifyURLs: yes
 relativeURLs: yes
 uglyURLs: no
