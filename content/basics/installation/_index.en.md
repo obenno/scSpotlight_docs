@@ -9,8 +9,8 @@ weight: 1
 ## Installation via R
 
 One can install scSpotlight from [GitHub](https://github.com/obenno/scSpotlight) with `devtools`
-or from [r-universe](https://r-universe.dev). 
-We recommend to use [`pak`](https://pak.r-lib.org/) instead of traditional way, as it's much faster.
+or from [r-universe](https://r-universe.dev).  We recommend to use [`pak`](https://pak.r-lib.org/) 
+instead of traditional way, as it's much faster.
 
 {{< tabs >}}
 {{% tab title="traditional way from r-universe" %}}
