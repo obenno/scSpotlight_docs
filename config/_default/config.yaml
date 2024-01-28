@@ -42,7 +42,7 @@ server:
     - for: '**.html'
       values:
         X-UA-Compatible: IE=edge
-defaultContentLanguage: zh
+defaultContentLanguage: en
 languages:
   en:
     languageName: English
