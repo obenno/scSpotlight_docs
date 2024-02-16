@@ -29,13 +29,13 @@ pak::pkg_install("scSpotlight")
 {{% tab title="devtools from github" %}}
 ```r
 # install.packages("devtools")
-devtools::install_github("obenno/scSpotlight@v0.0.2")
+devtools::install_github("obenno/scSpotlight@v0.0.3")
 ```
 {{% /tab %}}
 {{% tab title="pak from github" %}}
 ```r
 # install.packages("pak")
-pak::pkg_install("obenno/scSpotlight@v0.0.2")
+pak::pkg_install("obenno/scSpotlight@v0.0.3")
 ```
 {{% /tab %}}
 {{< /tabs >}}
