@@ -46,12 +46,12 @@ pak::pkg_install("obenno/scSpotlight@v0.0.3")
 用户如果有安装docker, 也可以选择使用我们准备好的docker image. 拉取image使用如下命令:
 
 ```
-docker pull registry-intl.cn-hangzhou.aliyuncs.com/thunderbio/scspotlight:0.0.2
+docker pull registry-intl.cn-hangzhou.aliyuncs.com/thunderbio/scspotlight:0.0.3
 ```
 
 在特定的端口(如`8081`端口)运行app, 请使用如下命令:
 
 ```
-docker run -p 8081:8081 registry-intl.cn-hangzhou.aliyuncs.com/thunderbio/scspotlight:0.0.2 Rscript -e 'scSpotlight::run_app(options = list(port=8081, host="0.0.0.0", launch.browser = FALSE), runningMode="processing")'
+docker run -p 8081:8081 registry-intl.cn-hangzhou.aliyuncs.com/thunderbio/scspotlight:0.0.3 Rscript -e 'scSpotlight::run_app(options = list(port=8081, host="0.0.0.0", launch.browser = FALSE), runningMode="processing")'
 ```
     
